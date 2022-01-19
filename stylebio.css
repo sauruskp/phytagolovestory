@@ -1,0 +1,49 @@
+body {
+    background: aliceblue;
+}
+
+.columcard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 15% auto;
+    width: 350px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card-img {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.card-text {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media ( min-width: 600px) {
+    .flexbox {
+        display: -webkit-flex;
+        display: flex;
+    }
+    .main {
+        margin: 0 10px 0 0;
+    }
+}
